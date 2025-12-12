@@ -17,7 +17,7 @@ jobs:
       uses: docker/login-action@v2
       with:
         username: ${{ secrets.DMARROQUINL1 }}
-        password: ${{ secrets.DOCKERHUB_TOKEN }}
+        password: ${{ secrets.DMARROQUINL1 }}
 
     - name: Build and push Docker image
       uses: docker/build-push-action@v4
